@@ -6,5 +6,10 @@ Instead of finding a dataset to use, I am creating my own matrix that starts wit
 
 ![Screenshot of arm distribution or actions with normally distributed rewards with small variance.](https://github.com/CrawleyM29/ML_Practice/blob/data-engineering/Arm%20Distribution%20ML/Beginning%20Code.JPG)
 
+I then viewed my dataset to make sure it was clean and correct for my simulation. I only took a screenshot of the first 13 rows, it does have 10,000 lines with various outcomes.
+
+![View of dataset](https://github.com/CrawleyM29/ML_Practice/blob/data-engineering/Arm%20Distribution%20ML/Dataset%20View.JPG)
+
+
 
 
