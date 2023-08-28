@@ -22,5 +22,20 @@ The following is the plot for the distributions of rewards from Bandits
 
 ![Code for Plot I](https://github.com/CrawleyM29/ML_Practice/blob/data-engineering/Arm%20Distribution%20ML/Plot1.JPG)
 
+### Plot-I Outcome
+
+![Different Bandits Rewards](https://github.com/CrawleyM29/ML_Practice/blob/data-engineering/Arm%20Distribution%20ML/Plot%20Bandits%20distribution.JPG)
+
+As we can see, the different Bandit rewards for 1 to 10 are near 0.15 in density, with 4 being less in density, barely hitting 0.15. The highest density in rewards is with Bandit 10, Bandit 9 being in close 2nd. This is prior to putting in Upper Confidence Bound Algorithm (CBA).
+
+## Upper Confidence Bound Algorithm
+
+I created a function to have 1000 rewards, and the reward total is 0.  This is to put in some statistics for our max upper bound where if it's greater than 0, we calculate the square root (2 x log(1 + n x log(n)^2 / selection of numbers.  This will get our average reward. 
+
+If it's not greater than 0, our upper bound will equal 1e400. I will be honest, it took me a little bit to troubeshoot my errors, but we got there (never give up) See the following:
+
+![UCB Code](https://github.com/CrawleyM29/ML_Practice/blob/data-engineering/Arm%20Distribution%20ML/Upper%20Confidence%20bound%20Algorithm.JPG)
+
+
 
 
