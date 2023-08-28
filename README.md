@@ -16,5 +16,11 @@ After creating the dataset and making sure it was clean and created it, I assign
 
 ![Assigning column names and creating a reward combiniation](https://github.com/CrawleyM29/ML_Practice/blob/data-engineering/Arm%20Distribution%20ML/data%20prep.JPG)
 
+### Plot-I Code and Visual
+
+The following is the plot for the distributions of rewards from Bandits
+
+![Code for Plot I](https://github.com/CrawleyM29/ML_Practice/blob/data-engineering/Arm%20Distribution%20ML/Plot1.JPG)
+
 
 
